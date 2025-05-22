@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 st.title('Housing Price Prediction')
-model=pickle.load(open('rf_model_class_2_nn.pkl','rb'))
+model=pickle.load(open('lr_model.pkl','rb'))
 
 # get the data from User
 st.header('Housing Price Prediction given by User')
